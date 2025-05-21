@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(112, 133, 78);
+    background-color: #e3e3e3;
 }
 
 .interface{
@@ -21,7 +21,9 @@ header .btn-contato button, .hero-site button{
     color: #ffffff;
     cursor: pointer;
     transition: .5s;  /* tempo que sai a parte blanca   */ 
+    
  }
+ 
 
 /* estilo do geader */
 header{
@@ -72,6 +74,7 @@ header .btn-contato button{
 header .btn-contato button:hover, .hero-site button:hover{
     background-color: #ffffff;
     color: #000;
+    
 }
 
 /* estilo do hero foto */
@@ -120,3 +123,89 @@ height: 100%;
     font-size: 20px;
 }
 
+/* estilos das vantagens */
+
+section.vantagens{
+    padding: 80px 0;
+
+}
+
+.vantagens .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.vantagens .itens-container .img-intens img{
+    max-width: 480px;     /* tamnho da foto */
+}
+
+.vantagens .itens-container .img-intens h3{
+    font-size: 3rem;
+    line-height: 50px;
+    margin-bottom: 20px;
+    
+
+}
+
+.itens-container .img-intens h3 span{
+    font-weight: 700;
+}
+
+/* estilo dos botões de contato */
+section.contato{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.txt-contato, .icons-contato{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.contato .txt-contato h3{
+    font-size: 2.5em;
+    line-height: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+.contato .txt-contato h3 span{
+    display: block;
+    font-weight: 700;
+}
+
+.contato .icons-contato a{
+    text-decoration: none;
+}
+
+.contato .icons-contato button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 0 60px;
+    border: 2px solid #000;
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.contato .icons-contato button i{
+    font-size: 24px;
+}
+
+.contato .icons-contato button:hover{
+    background-color: #000;
+}
+
+.contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
+    color: #fff;
+}
